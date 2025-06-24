@@ -101,6 +101,7 @@ const MailForm = () => {
                   {...fieldProps}
                 />
               </FormControl>
+              {value && value.length > 0 && void value[0].name}
               <FormMessage />
             </FormItem>
           )}
